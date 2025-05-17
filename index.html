@@ -1,1 +1,139 @@
-
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Cours et Exercices d'Arabe pour Débutants</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #f7f7f7;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #006766;
+            color: #fff;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+        main {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        h2 {
+            color: #006766;
+        }
+        .course-list, .exercise-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+            margin: 1rem 0;
+        }
+        .card {
+            background: #f4fafc;
+            border: 1px solid #e0e8ea;
+            border-radius: 6px;
+            padding: 1.2rem;
+            flex: 1 1 250px;
+            min-width: 220px;
+            box-shadow: 0 2px 4px rgba(0,103,102,0.08);
+            transition: transform 0.15s;
+        }
+        .card:hover {
+            transform: scale(1.025);
+            box-shadow: 0 4px 10px rgba(0,103,102,0.10);
+        }
+        .card-title {
+            font-size: 1.15rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+        .card-desc {
+            font-size: 0.98rem;
+            color: #444;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 0.4rem 1.1rem;
+            background: #006766;
+            color: #fff;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: background 0.2s;
+        }
+        .btn:hover {
+            background: #009688;
+        }
+        @media (max-width: 700px) {
+            .course-list, .exercise-list {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cours et Exercices d'Arabe pour Débutants</h1>
+        <p>Commencez votre apprentissage de l'arabe avec des leçons simples et des exercices adaptés aux débutants.</p>
+    </header>
+    <main>
+        <section>
+            <h2>Cours d'Arabe</h2>
+            <div class="course-list">
+                <div class="card">
+                    <div class="card-title">L'Alphabet Arabe</div>
+                    <div class="card-desc">Découvrez les lettres arabes, leur prononciation et leur écriture.</div>
+                    <a href="#" class="btn">Voir le cours</a>
+                </div>
+                <div class="card">
+                    <div class="card-title">Les Bases de la Lecture</div>
+                    <div class="card-desc">Apprenez à lire des mots simples et des phrases courtes en arabe.</div>
+                    <a href="#" class="btn">Voir le cours</a>
+                </div>
+                <div class="card">
+                    <div class="card-title">Vocabulaire Fondamental</div>
+                    <div class="card-desc">Mémorisez les mots essentiels pour se présenter et saluer en arabe.</div>
+                    <a href="#" class="btn">Voir le cours</a>
+                </div>
+                <div class="card">
+                    <div class="card-title">Premières Conjugaisons</div>
+                    <div class="card-desc">Introduction aux conjugaisons de base des verbes réguliers au présent.</div>
+                    <a href="#" class="btn">Voir le cours</a>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>Exercices Pratiques</h2>
+            <div class="exercise-list">
+                <div class="card">
+                    <div class="card-title">Reconnaissance des Lettres</div>
+                    <div class="card-desc">Exercez-vous à identifier et écrire chaque lettre de l'alphabet arabe.</div>
+                    <a href="#" class="btn">Faire l'exercice</a>
+                </div>
+                <div class="card">
+                    <div class="card-title">Lecture de Mots Simples</div>
+                    <div class="card-desc">Lisez et écrivez des mots faciles pour renforcer votre compréhension.</div>
+                    <a href="#" class="btn">Faire l'exercice</a>
+                </div>
+                <div class="card">
+                    <div class="card-title">Quiz de Vocabulaire</div>
+                    <div class="card-desc">Testez vos connaissances sur le vocabulaire de base arabe à l'aide de quiz interactifs.</div>
+                    <a href="#" class="btn">Faire l'exercice</a>
+                </div>
+                <div class="card">
+                    <div class="card-title">Exercice de Conjugaison</div>
+                    <div class="card-desc">Pratiquez la conjugaison des verbes réguliers au présent.</div>
+                    <a href="#" class="btn">Faire l'exercice</a>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
